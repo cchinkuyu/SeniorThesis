@@ -37,7 +37,7 @@ Make sure you run this at least once:
 </p>
 </details>
 
-    conda env create -f https://raw.githubusercontent.com/XAIA-ExtendedAugmentationInArchitecture/ARC373_Fall2025/refs/heads/main/enviroment/arc373.yml
+    conda create -n arc373 -c conda-forge compas_fab
 
 ### Add to Rhino
 
@@ -58,12 +58,6 @@ Make sure you run this at least once:
     COMPAS: 2.13.0
     Python: 3.13.5 (CPython)
     Extensions: ['compas', 'compas-robots', 'compas-fab']
-
-### Update installation
-
-
-(arc373) conda env update -f https://raw.githubusercontent.com/XAIA-ExtendedAugmentationInArchitecture/ARC373_Fall2025/refs/heads/main/enviroment/arc373.yml 
-
 
 ---
 
