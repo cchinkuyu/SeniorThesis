@@ -10,13 +10,13 @@ This repository contains the files for the course ARC373 Creative Computation an
 
 ## Requirements
 
-* Minimum OS: Windows 10 Pro or Mac OS Sierra 10.12
-* [Anaconda 3](https://www.anaconda.com/distribution/) Anaconda is an open source scientific Python distribution. With this tool, we can easily create a Python environment. Install Anaconda using default options.
-* [Docker Desktop](https://www.docker.com/products/docker-desktop) Docker is a virtualization platform. We use it to run Linux containers for ROS on Windows machines. 
-* After installation, it is required to enable "Virtualization" on the BIOS of the computer. Usually this requires rebooting your computer and pressing a vendor-specific key (`F2`, `F4`, `Del` are typical options) to enter the BIOS.
+- Minimum OS: Windows 10 Pro or Mac OS Sierra 10.12
+- [Anaconda 3](https://www.anaconda.com/distribution/) Anaconda is an open source scientific Python distribution. With this tool, we can easily create a Python environment. Install Anaconda using default options.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) Docker is a virtualization platform. We use it to run Linux containers for ROS on Windows machines. 
+After installation, it is required to enable "Virtualization" on the BIOS of the computer. Usually this requires rebooting your computer and pressing a vendor-specific key (`F2`, `F4`, `Del` are typical options) to enter the BIOS.
 
-* [Rhino 7 & Grasshopper](https://www.rhino3d.com/download)
-* [Visual Studio Code](https://code.visualstudio.com/): Any Python editor works, but we recommend using VS Code along with the recommended extensions listed in the [Working in Visual Studio Code](#working-in-visual-studio-code) section below.
+- [Rhino 7 & Grasshopper](https://www.rhino3d.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/): Any Python editor works, but we recommend using VS Code along with the recommended extensions listed in the [Working in Visual Studio Code](#working-in-visual-studio-code) section below.
 
 
 > [!NOTE]  
@@ -42,7 +42,6 @@ Make sure you run this at least once:
 ### Add to Rhino
 
     conda activate arc373
-    
     python -m compas_rhino.install -v 7.0 
 
 ### Get the Course's files
@@ -73,7 +72,7 @@ Make sure you run this at least once:
 Download the Docker image:
 
 - Go to the [gramaziokohler/ros-ur-planner Docker Hub page](https://hub.docker.com/r/gramaziokohler/ros-ur-planner).
-- Click the **Run in Docker Desktop** button to open the image in Docker Desktop.
+- Click the `Run in Docker Desktop` button to open the image in Docker Desktop.
 - Follow the prompts in Docker Desktop to pull and start the container.
 
 ---
