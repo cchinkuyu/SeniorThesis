@@ -41,8 +41,8 @@ Make sure you run this at least once:
 
 ### Add to Rhino
 
-   conda activate arc373
-   python -m compas_rhino.install -v 7.0 
+    conda activate arc373
+    python -m compas_rhino.install -v 7.0 
 
 ### Get the Course's files
 
@@ -51,13 +51,13 @@ Make sure you run this at least once:
 
 ### Verify installation
 
-python -m compas
+    python -m compas
 
-Yay! COMPAS is installed correctly!
+    Yay! COMPAS is installed correctly!
 
-COMPAS: 2.13.0
-Python: 3.13.5 (CPython)
-Extensions: ['compas', 'compas-robots', 'compas-fab']
+    COMPAS: 2.13.0
+    Python: 3.13.5 (CPython)
+    Extensions: ['compas', 'compas-robots', 'compas-fab']
 
 ### Update installation
 
