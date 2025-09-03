@@ -42,6 +42,7 @@ Make sure you run this at least once:
 ### Add to Rhino
 
     conda activate arc373
+    
     python -m compas_rhino.install -v 7.0 
 
 ### Get the Course's files
