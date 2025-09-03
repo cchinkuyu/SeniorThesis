@@ -37,17 +37,17 @@ Make sure you run this at least once:
 </p>
 </details>
 
-    conda env create -f https://dfab.link/fs2023.yml
+    conda env create -f https://raw.githubusercontent.com/XAIA-ExtendedAugmentationInArchitecture/ARC373_Fall2025/refs/heads/main/enviroment/arc373.yml
 
 ### Add to Rhino
 
    conda activate arc373
    python -m compas_rhino.install -v 7.0 
 
-<!-- ### Get the workshop files
+### Get the Course's files
 
-    <!-- (fs2023) cd Documents
-    (fs2023) git clone https://github.com/compas-teaching/COMPAS-II-FS2023 --> -->
+    cd Documents
+    git clone https://github.com/XAIA-ExtendedAugmentationInArchitecture/ARC373_Fall2025
 
 ### Verify installation
 
@@ -62,7 +62,7 @@ Extensions: ['compas', 'compas-robots', 'compas-fab']
 ### Update installation
 
 
-(arc373) conda env update -f https://dfab.link/fs2023.yml 
+(arc373) conda env update -f https://raw.githubusercontent.com/XAIA-ExtendedAugmentationInArchitecture/ARC373_Fall2025/refs/heads/main/enviroment/arc373.yml 
 
 
 ---
@@ -75,6 +75,18 @@ Download the Docker image:
 - Click the **Run in Docker Desktop** button to open the image in Docker Desktop.
 - Follow the prompts in Docker Desktop to pull and start the container.
 
+---
+
+## Downloading the Bifocals Plugin
+
+To use the Bifocals plugin in Grasshopper:
+
+- Go to [Bifocals page on Food4Rhino](https://www.food4rhino.com/en/app/bifocals).
+- Log in with your Rhino Account.
+- Download the `Bifocals GHA` file.
+- Open Grasshopper in Rhino, then drag and drop the downloaded `.gha` file into the Grasshopper window to install the plugin.
+
+---
 
 ## Working in Visual Studio Code
 
