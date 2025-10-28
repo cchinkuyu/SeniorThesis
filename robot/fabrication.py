@@ -173,7 +173,7 @@ def send_trajectory_radius(trajectory, speed, accel, radius, stop_before=0, stop
     time.sleep(stop_after)
 
 def send_multiple_trajectories(trajectories, speed, accel, radius, stop_between=0, ip="127.0.0.1"):
-
+    ur_c = RTDEControl(ip)
     for trajectory in trajectories:
         configurations = trajectory.points
         print(f"Move trajectory of {len(configurations)} points with speed {speed}, accel {accel} and blend {radius}")
@@ -183,7 +183,6 @@ def send_multiple_trajectories(trajectories, speed, accel, radius, stop_between=
             path.append(config.joint_values + [speed, accel, radius])
 
         if len(path):
-            ur_c = RTDEControl(ip)
             ur_c.moveJ(path)
 
         time.sleep(stop_between)
